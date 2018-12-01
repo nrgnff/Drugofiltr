@@ -1,0 +1,11 @@
+{{#each items}}
+<li class="friends__item" draggable="true" data-id={{id}}>
+    <div class="friends__user qwe">
+        <img src="{{photo_100}}" alt="photo" class="friends__photo">
+        <div class="friends__name">{{first_name}} {{last_name}}</div>
+    </div>
+    <div class="friends__button">
+        <i class="fas fa-times close-icon"></i>
+    </div>
+</li>
+{{/each}}
